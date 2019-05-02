@@ -1,0 +1,26 @@
+body {
+  display: flex;
+  margin: 5vw;
+}
+body header {
+  width: 100;
+}
+body header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+body header nav a {
+  text-decoration: none;
+  color: #2a2a2a;
+  margin-right: 2rem;
+}
+body section.hero {
+  background-color: #eeeeee;
+  padding: 3vw;
+}
+body section.hero .image {
+  display: flex;
+}
+body section.hero .image img {
+  flex: 1 1 300px;
+}
