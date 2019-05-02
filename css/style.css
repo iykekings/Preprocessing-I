@@ -6,6 +6,7 @@ body {
 }
 body header {
   width: 100%;
+  margin-bottom: 1rem;
 }
 body header nav {
   display: flex;
@@ -39,9 +40,22 @@ body section.hero p.description {
   border-top: 2px solid gray;
   padding-top: 1rem;
 }
+body section.skills {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  padding: 3rem 0;
+  justify-content: space-evenly;
+  grid-gap: 4rem;
+}
 h1 {
   font-family: 'Sofia', cursive;
   font-size: calc(2rem + 1vw);
+  margin: 0.5rem 0;
+}
+h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0.5em 0;
 }
 .btn {
   text-decoration: none;
