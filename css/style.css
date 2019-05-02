@@ -32,7 +32,22 @@ body section.hero .image img {
   height: 300px;
   object-fit: cover;
 }
+body section.hero p {
+  margin: 1rem 0;
+}
+body section.hero p.description {
+  border-top: 2px solid gray;
+  padding-top: 1rem;
+}
 h1 {
   font-family: 'Sofia', cursive;
-  font-size: 4rem;
+  font-size: calc(2rem + 1vw);
+}
+.btn {
+  text-decoration: none;
+  color: white;
+  background-color: darkgray;
+  padding: 0.5em 1em;
+  align-self: flex-start;
+  border-radius: 5px;
 }

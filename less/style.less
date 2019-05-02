@@ -1,8 +1,12 @@
+// Variables
+@font: 'Raleway', sans-serif;
+@font-heading: 'Sofia', cursive;
+
 body {
   display: flex;
   margin: 5vw;
   flex-direction: column;
-  font-family: 'Raleway', sans-serif;
+  font-family: @font;
 
   header {
     width: 100%;
@@ -35,10 +39,27 @@ body {
         object-fit: cover;
       }
     }
+
+    p {
+      margin: 1rem 0;
+      &.description {
+        border-top: 2px solid gray;
+        padding-top: 1rem;
+      }
+    }
   }
 }
 // Global
 h1 {
-  font-family: 'Sofia', cursive;
-  font-size: 4rem;
+  font-family: @font-heading;
+  font-size: calc(2rem + 1vw);
+}
+
+.btn {
+  text-decoration: none;
+  color: white;
+  background-color: darkgray;
+  padding: 0.5em 1em;
+  align-self: flex-start;
+  border-radius: 5px;
 }
