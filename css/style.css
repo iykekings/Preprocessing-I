@@ -81,6 +81,14 @@ body section.table .table-con table th {
   border: 1px solid #ccc;
   text-align: left;
 }
+body footer {
+  margin-top: 3rem;
+  padding: 1rem 0;
+  background-color: darkgrey;
+  color: white;
+  text-align: center;
+  border-radius: 5px 5px 0 0;
+}
 h1 {
   font-family: 'Sofia', cursive;
   font-size: calc(2rem + 1vw);
