@@ -55,6 +55,44 @@ body {
     padding: 3rem 0;
     justify-content: space-evenly;
     grid-gap: 4rem;
+
+    ul {
+      display: flex;
+      flex-direction: column;
+      li {
+        border-bottom: 1px grey solid;
+        align-self: flex-start;
+        padding: 0.7em 0;
+      }
+    }
+    p {
+      margin: 1.2em 0;
+    }
+  }
+
+  section.table {
+    .table-con {
+      width: 100%;
+      overflow-x: auto;
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        tr:nth-of-type(odd) {
+          background: #eee;
+        }
+        th {
+          background: #333;
+          color: white;
+          font-weight: bold;
+        }
+        td,
+        th {
+          padding: 6px;
+          border: 1px solid #ccc;
+          text-align: left;
+        }
+      }
+    }
   }
 }
 // Global

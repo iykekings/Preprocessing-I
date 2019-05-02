@@ -47,6 +47,40 @@ body section.skills {
   justify-content: space-evenly;
   grid-gap: 4rem;
 }
+body section.skills ul {
+  display: flex;
+  flex-direction: column;
+}
+body section.skills ul li {
+  border-bottom: 1px grey solid;
+  align-self: flex-start;
+  padding: 0.7em 0;
+}
+body section.skills p {
+  margin: 1.2em 0;
+}
+body section.table .table-con {
+  width: 100%;
+  overflow-x: auto;
+}
+body section.table .table-con table {
+  width: 100%;
+  border-collapse: collapse;
+}
+body section.table .table-con table tr:nth-of-type(odd) {
+  background: #eee;
+}
+body section.table .table-con table th {
+  background: #333;
+  color: white;
+  font-weight: bold;
+}
+body section.table .table-con table td,
+body section.table .table-con table th {
+  padding: 6px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
 h1 {
   font-family: 'Sofia', cursive;
   font-size: calc(2rem + 1vw);
